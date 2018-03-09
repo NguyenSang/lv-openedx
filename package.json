@@ -27,6 +27,7 @@
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "1.1.6",
     "font-awesome": "4.7.0",
+    "generate-json-webpack-plugin": "^0.2.2",
     "hls.js": "0.7.2",
     "imports-loader": "0.7.1",
     "jquery": "2.2.4",

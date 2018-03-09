@@ -29,19 +29,19 @@
     "DATABASES": {
         "default": {
             "ENGINE": "django.db.backends.mysql",
-            "HOST": "edx.devstack.mysql",
-            "NAME": "edxtest",
-            "PASSWORD": "",
-            "PORT": "3306",
-            "USER": "root"
+            "HOST": "127.0.0.1",
+            "NAME": "bitnami_edxapp",
+            "PASSWORD": "f73fd3ff3b",
+            "PORT": "3307",
+            "USER": "bn_edx"
         },
         "student_module_history": {
             "ENGINE": "django.db.backends.mysql",
-            "HOST": "edx.devstack.mysql",
-            "NAME": "student_module_history_test",
-            "PASSWORD": "",
-            "PORT": "3306",
-            "USER": "root"
+            "HOST": "127.0.0.1",
+            "NAME": "bitnami_edxapp_csmh",
+            "PASSWORD": "f73fd3ff3b",
+            "PORT": "3307",
+            "USER": "bn_edx"
         }
     },
     "DOC_STORE_CONFIG": {

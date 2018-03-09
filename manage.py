@@ -32,7 +32,6 @@ def parse_args():
     """Parse edx specific arguments to manage.py"""
     parser = ArgumentParser()
     subparsers = parser.add_subparsers(title='system', description='edX service to run')
-    parser.add_argument("sang")
     lms = subparsers.add_parser(
         'lms',
         help='Learning Management System',
@@ -85,7 +84,7 @@ def parse_args():
         startup='cms.startup',
     )
 
-    edx_args, django_args = lms.parse_known_args()
+    edx_args, django_args = parser.parse_known_args()
 
     if edx_args.help:
         print("edX:")
